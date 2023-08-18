@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 100;
+}
+
+.interim {
+    color: grey;
+}
+
+.final {
+    color: black;
+}
+
+#results {
+    height: 200px;
+    border: 2px solid #ddd;
+    font-size: 20 px;
+    font-weight: bold;
+    text-align: left;
+    margin: 0 0 20px 0;
+    padding: 15px 15px;
+    background-color: whitesmoke;
+}
+
+#start_button {
+    border: 0;
+    background-color: white;
+    cursor: pointer;
+    height: 20 px;
+    width: 20 px;
+}
+
+#start_img {
+    width: 40 px;
+    height: 40 px;
+}
+
+@media screen and (max-width: 767px) {
+    #langauge {
+        position: relative;
+    }
+    #select_dialect {
+        position: absolute;
+        right: 0;
+        margin-bottom: 10px;
+    }
+}
